@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <!-- bootstrap 4link /  -->
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+
+
+    <!-- light box  -->
+    <link rel="stylesheet" href="./lightbox2-2.11.3/lightbox2-2.11.3/dist/css/lightbox.min.css">
+    <script src="./lightbox2-2.11.3/lightbox2-2.11.3/dist/js/lightbox-plus-jquery.min.js"></script>
+    <!-- light box  -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <!-- bootstrap    end  -->
+    <!-- manual links  -->
+
+
+    <!-- <link rel="stylesheet" href="../Css/bootstrap.min.css">
+    <link rel="stylesheet" href="../jquery/jquery-ui.min.css">
+    <script src="../jquery/jquery-3.6.0.min.js"></script>
+    <script src="../jquery/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="../jquery/jquery-3.6.0.min.js">
+    <script src="../Css/bootstrap.min.js"></script> -->
+
+
+    <!-- manual links end -->
+    <!--    bootstrap -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!-- jquery css link  -->
+
+    <!-- jquery css link end -->
+    <!-- css link  -->
+    <link rel="stylesheet" href="./stylesheet_1.css">
+    <!-- css link  end -->
+</head>
+
+<body>
+
+    <input type="checkbox" id="check">
+
+
+    <header>
+
+
+        <div class="container-fluid " id="navcontainer">
+            <div id="logo">
+                <a href="#">Code <span> Shadow</span></a>
+            </div>
+
+
+        </div>
+
+    </header>
+    <!-- header  -->
+    <!-- .................................side bar start ............................................  -->
+    <div class="container-fluid " id="sidebarbox">
+        <!-- toggle button  -->
+        <div id="sidebardiv" style="width: 100%;text-align: right;">
+            <label for="check" id="bar"><i class="fas fa-bars fa-2x"></i></label>
+
+        </div>
+        <!-- toggle button  -->
+        <div id="mainimg">
+            <!--profile image-->
+            <img src="../IMGAES/ice.jpeg" alt="Profile" id="images">
+        </div>
+        <div id="name" class="sidebaritiems sir">
+            <!--name-->
+            <h5>
+                Mohammad Awais
+            </h5>
+        </div>
+
+        <div id="sociallinks" class="sidebaritiems  sir">
+            <!--social links-->
+            <i class="fab fa-facebook fa-2x links"></i> <i class="fas fa-envelope fa-2x links"></i> <i
+                class="fab fa-whatsapp fa-2x links"></i>
+        </div>
+        <div id="intro" class="sidebaritiems sir">
+            <!--intro-->
+            <div class="container">
+
+
+                <h6>
+                    I'm Frontend Developer from Pakistan
+                </h6>
+
+            </div>
+        </div>
+        <!-- .....................navigation bar..............................  -->
+        <nav class="sidebaritiems  " id="navbarsidebar">
+
+            <ul class="nav-tabs nav">
+
+                <li id="home" class="sidebaritiems  nav-item pointme">
+
+
+                    <a href="#hometab" data-toggle="tab"> <i class="fas fa-home "></i> </a> <a href="#hometab"
+                        class="  aa active" data-toggle="tab"> Home</a>
+
+
+
+                </li>
+                <li class="nav-item sidebaritiems  pointme" id="Project">
+
+                    <a href="#projecttab" data-toggle="tab"><i class="fas fa-tasks "></i> </a> <a href="#projecttab"
+                        class="aa" data-toggle="tab"> Projects</a>
+
+                </li>
+                <li class="nav-item sidebaritiems  pointme" id="imgg">
+
+                    <a href="#imagestab" data-toggle="tab"> <i class="fas fa-images "></i> </a> <a href="#imagestab"
+                        class="aa" data-toggle="tab"> Images </a>
+
+                </li>
+                <li class="nav-item sidebaritiems  pointme" id="videog">
+
+                    <a href="#videostab" data-toggle="tab"> <i class="fas fa-video "></i></a> <a href="#videostab"
+                        class="aa" data-toggle="tab"> Videos</a>
+
+                </li>
+                <li class="nav-item sidebaritiems  pointme" id="contact">
+
+                    <a href="#contacttab" data-toggle="tab"> <i class="fas fa-envelope-open "></i></a> <a
+                        href="#contacttab" class="aa" data-toggle="tab"> Contact</a>
+
+                </li>
+
+            </ul>
+        </nav>
+
+    </div>
+    <!-- ..................................................side bar end............................................................... 
+  -->
+    
+    <!-- home page  -->
+    <div class="container-fluid" id="maincontent">
+        <div class="container" style="   background-color: #0000005c;">
+            <div class="tab-content ">
+                <!--home tab-->
+                <br>
+                <div class="tab-pane collapse active" id="hometab">
+                    <div class="homeanimediv">
+                        <h1 class="homeanimation">Welcome</h1>
+
+                    </div>
+                    <br><br>
+                    <h3>About Me :</h3><br>
+                    <div class="container">
+
+                        <p style="color: white;word-break: break-all"> &emsp;
+                            ajdflkjaflkdjsflkjsdfjasdfjaslkfdjlkdsjflksdjfklsajdflkajsdfklj</p>
+                    </div>
+                    <!-- skill section starting  -->
+                    <br>
+                    <h3>Skills :</h3> <br>
+                    <div class="container">
+
+
+                        <h5>HTML</h5>
+                        <div class="progresscustom">
+                            <div class="innerprogress" id="htmlanimation">
+
+                            </div>
+                        </div><br>
+                        <h5>CSS</h5><br>
+                        <div class="progresscustom">
+                            <div class="innerprogress" id="cssanimation">
+
+                            </div>
+                        </div><br>
+                        <h5>JAVASCRIPT</h5><br>
+                        <div class="progresscustom">
+                            <div class="innerprogress" id="javascanimation">
+
+                            </div>
+                        </div>
+                        <br>
+                        <h5>BOOTSTRAP</h5>
+                        <br>
+                        <div class="progresscustom">
+                            <div class="innerprogress" id="bootstrapanimation">
+
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <h5>JQUERY</h5>
+                        <br>
+                        <div class="progresscustom">
+                            <div class="innerprogress" id="jqueryanimation">
+
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <h5>EXPREES</h5>
+                        <br>
+                        <div class="progresscustom">
+                            <div class="innerprogress" id="expressanimation">
+
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <h5>PUG TEMPLATE ENGINE</h5>
+                        <br>
+                        <div class="progresscustom">
+                            <div class="innerprogress" id="puganimation">
+
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <h5>NODE JS</h5>
+                        <br>
+                        <div class="progresscustom">
+                            <div class="innerprogress" id="nodeanimation">
+
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <h5>Mongo DB (backend data base) :</h5>
+                        <br>
+                        <div class="progresscustom">
+                            <div class="innerprogress" id="mongoanimation">
+
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <hr style="    background: #a0a0a08f;">
+                    <!-- .....................................skills end .........  -->
+                    <div class="container">
+
+
+                        <br>
+                        <h3>What I Can Do ?</h3>
+                        <div class="container">
+
+                            <p style="color: white;word-break: break-all"> &emsp;
+                                argtrtretretretretretrjdflkjaflkdjsflkjsdfjasdfjaslkfdjlkdsjflksdjfklsajdflkajsdfklj</p>
+                        </div>
+                        <br>
+                        <h3>Custom Designs</h3>
+                        <div class="container">
+
+                            <p style="color: white;word-break: break-all"> &emsp;
+                                argtrtretretretretretrjdflkjaflkdjsflkjsdfjasdfjaslkfdjlkdsjflksdjfklsajdflkajsdfklj</p>
+
+
+
+
+
+                        </div>
+
+                    </div>
+
+                    <!-- skill section end  -->
+                    <br><br>
+                    <div style="visibility: hidden;">
+                        <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj</h1>
+                        <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj</h1>
+                        <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj</h1>
+                    </div>
+                    <div style="visibility: hidden;">
+                        <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj
+                        </h1>
+                        <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj
+                        </h1>
+                    </div>  <div style="visibility: hidden;">
+                        <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj
+                        </h1>
+                        <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj
+                        </h1>
+                    </div>
+
+
+                </div>
+                <!--home tab end-->
+
+
+
+                <!-- ............................projects..................................  -->
+                <div class="tab-pane " id="projecttab">
+                    <br>
+                    <div class="homeanimediv">
+                        <h1 class="homeanimation">Projects</h1>
+
+                    </div>
+                    <br><br>
+                    <!-- ................................... project content ............  -->
+                    <!-- ................................... Descriptions ............  -->
+                    <br>
+                    <h3>Description :</h3>
+                    <br>
+                    <div class="container">
+
+                        <p style="color: white;word-break: break-all"> &emsp;
+                            argtrtretretretretretrjdflkjaflkdjsflkjsdfjasdfjaslkfdjlkdsjflksdjfklsajdflkajsdfklj</p>
+
+                    </div>
+                    <br>
+                    <br>
+                    <h3>Completed Projects :</h3>
+                    <br>
+                    <div class="container">
+
+                        <p style="color: white;word-break: break-all"> &emsp;
+                            argtrtretretretretretrjdflkjaflkdjsflkjsdfjasdfjaslkfdjlkdsjflksdjfklsajdflkajsdfklj</p>
+
+                    </div>
+                    <br>
+                    <!-- .............................clients orderer .............   -->
+                    <br>
+                    <h3>Completed Clients Orders :</h3>
+                    <br>
+                    <div class="container">
+
+                        <p style="color: white;word-break: break-all"> &emsp;
+                            argtrtretretretretretrjdflkjaflkdjsflkjsdfjasdfjaslkfdjlkdsjflksdjfklsajdflkajsdfklj</p>
+
+                    </div>
+                    <br>
+
+
+                    <!-- .............................errorr solver................ -->
+                    <br><br>
+                    <div style="visibility: hidden;">
+                        <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj</h1>
+                        <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj</h1>
+                        <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj</h1>
+                    </div>
+                    <div style="visibility: hidden;">
+                        <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj
+                        </h1>
+                        <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj
+                        </h1>
+                    </div>  <div style="visibility: hidden;">
+                        <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj
+                        </h1>
+                        <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj
+                        </h1>
+                    </div>
+
+
+                </div>
+                <!-- ........................................................................................      -->
+                <!-- ......................................images tab..................................................      -->
+
+
+                <div class="tab-pane" id="imagestab">
+                    <br>
+                    <div class="homeanimediv">
+                        <h1 class="homeanimation">IMAGE GALLERY</h1>
+
+                    </div>
+                    <br><br>
+                    <div class="container">
+                        <div class="imagesgrid">
+                            <div class=" columndiv">
+                                <div class="colflex">
+
+                                    <a href="../IMGAES/anime/5.jpg" data-lightbox="mygallery">
+                                        <img src="../IMGAES/anime/5.jpg" class="imagestabimages" alt="bs">
+                                    </a>
+
+
+                                    <h5>bc image </h5>
+
+                                </div>
+                            </div>
+                            <div class=" columndiv">
+                                <div class="colflex">
+
+                                    <a href="../IMGAES/anime/1.jpeg" data-lightbox="mygallery">
+                                        <img src="../IMGAES/anime/1.jpeg" class="imagestabimages" alt="bs">
+                                    </a>
+
+
+                                    <h5>Anime Landscape </h5>
+
+                                </div>
+                            </div>
+                            
+                            <div class=" columndiv">
+                                <div class="colflex">
+
+                                    <a href="../IMGAES/anime/2.jpg " data-lightbox="mygallery">
+                                        <img src="../IMGAES/anime/2.jpg" class="imagestabimages" alt="bs">
+                                    </a>
+
+
+                                    <h5>Anime Landscape </h5>
+
+                                </div>
+                            </div>
+                            <div class=" columndiv">
+                                <div class="colflex">
+
+                                    <a href="../IMGAES/anime/3.png" data-lightbox="mygallery">
+                                        <img src="../IMGAES/anime/3.png" class="imagestabimages" alt="bs">
+                                    </a>
+
+
+                                    <h5>Anime Landscape </h5>
+
+                                </div>
+                            </div>
+                            <div class=" columndiv">
+                                <div class="colflex">
+
+                                    <a href="../IMGAES/anime/4.jpg" data-lightbox="mygallery">
+                                        <img src="../IMGAES/anime/4.jpg" class="imagestabimages" alt="bs">
+                                    </a>
+
+
+                                    <h5>Anime Landscape </h5>
+
+                                </div>
+                            </div>
+                            <div class=" columndiv">
+                                <div class="colflex">
+
+                                    <a href="../IMGAES/anime/6.png" data-lightbox="mygallery">
+                                        <img src="../IMGAES/anime/6.png" class="imagestabimages" alt="bs">
+                                    </a>
+
+
+                                    <h5>Anime Landscape </h5>
+
+                                </div>
+                            </div>
+                            <div class=" columndiv">
+                                <div class="colflex">
+
+                                    <a href="../IMGAES/anime/7.jpg" data-lightbox="mygallery">
+                                        <img src="../IMGAES/anime/7.jpg" class="imagestabimages" alt="bs">
+                                    </a>
+
+
+                                    <h5>Anime Landscape </h5>
+
+                                </div>
+                            </div>
+                            <div class=" columndiv">
+                                <div class="colflex">
+
+                                    <a href="../IMGAES/anime/8.jpg" data-lightbox="mygallery">
+                                        <img src="../IMGAES/anime/8.jpg" class="imagestabimages" alt="bs">
+                                    </a>
+
+
+                                    <h5>Anime Landscape </h5>
+
+                                </div>
+                            </div>
+                            <div class=" columndiv">
+                                <div class="colflex">
+
+                                    <a href="../IMGAES/anime/9.jpg" data-lightbox="mygallery">
+                                        <img src="../IMGAES/anime/9.jpg" class="imagestabimages" alt="bs">
+                                    </a>
+
+
+                                    <h5>Anime Landscape </h5>
+
+                                </div>
+                            </div>
+                            <div class=" columndiv">
+                                <div class="colflex">
+
+                                    <a href="../IMGAES/anime/10.jpg" data-lightbox="mygallery">
+                                        <img src="../IMGAES/anime/10.jpg" class="imagestabimages" alt="bs">
+                                    </a>
+
+
+                                    <h5>Anime Landscape </h5>
+
+                                </div>
+                            </div>
+                            
+                            <div style="visibility: hidden;">
+                                <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj
+                                </h1>
+                                <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj
+                                </h1>
+                            </div>
+                            <div style="visibility: hidden;">
+                                <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj
+                                </h1>
+                                <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj
+                                </h1>
+                            </div>
+                            <div style="visibility: hidden;">
+                                <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj
+                                </h1>
+                                <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj
+                                </h1>
+                            </div>
+
+                        </div>
+                        <!--row div end-->
+
+
+                        <div style="visibility: hidden;">
+                            <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj
+                            </h1>
+                            <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj
+                            </h1>
+                        </div>
+
+
+                    </div>
+                </div>
+                <br>
+
+
+                <!-- ......................................videos tab..................................................      -->
+                <div class="tab-pane" id="videostab">
+                    <br>
+                    <div class="homeanimediv">
+                        <h1 class="homeanimation">VIDEO GALLERY</h1>
+
+                    </div>
+                    <br><br>
+                    <div class="container">
+                        <div class="imagesgrid">
+                            <!--main grid -->
+                            <div class=" columndiv">
+                                <div class="colflex">
+
+
+                                    <img src="../IMGAES/bc.jpg" class="imagestabimages" alt="bs">
+                                    <img src="../IMGAES/playbutton (1).png" alt="" class="playbutton">
+
+
+                                    <h5>bc image </h5>
+
+                                </div>
+                            </div>
+                            <div class=" columndiv">
+                                <div class="colflex">
+
+
+                                    <img src="../IMGAES/bc.jpg" class="imagestabimages" alt="bs">
+
+                                    <img src="../IMGAES/playbutton.png" alt="" type="button" class="playbutton"
+                                        data-toggle="modal" data-target="#video1">
+
+
+                                    <h5>bc image </h5>
+
+                                </div>
+
+                            </div>
+                            <div class=" columndiv">
+                                <div class="colflex">
+
+
+                                    <img src="../IMGAES/bc.jpg" class="imagestabimages" alt="bs">
+                                    <img src="../IMGAES/playbutton.png" alt="" type="button" class="playbutton"
+                                        data-toggle="modal" data-target="#video2">
+
+
+
+                                    <h5>bc image </h5>
+
+                                </div>
+                            </div>
+                            <div class=" columndiv">
+                                <div class="colflex">
+
+                                    <a href="../IMGAES/bc.jpg" data-lightbox="mygallery">
+                                        <img src="../IMGAES/bc.jpg" class="imagestabimages" alt="bs">
+                                    </a>
+
+
+                                    <h5>bc image </h5>
+
+                                </div>
+                            </div>
+                            <div class=" columndiv">
+
+                            </div>
+                            <div class="columndiv">
+
+                            </div>
+                          
+                            <!-- modal videos starting .........................   -->
+
+                            <!-- Modal -->
+                            <!-- /.................................. video 1................... ? -->
+                            <div class="modal fade" id="video1">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+
+                                        <div class="modal-body">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            <video width="100%" controls>
+                                                <source src="../videos/HISTORY OF JINPACHI TEKKEN7 IN HINDI.mp4"
+                                                    type="video/mp4">
+                                            </video>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- .............................................video 2....................................                           -->
+                            <div class="modal fade" id="video2">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+
+                                        <div class="modal-body">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            <video width="100%" controls>
+                                                <source
+                                                    src="../videos/Marhaba Marhaba Aamad-e-Mustafa Marhaba - Haji Aamin Attari - Ashfaq Madani -.mp4"
+                                                    type="video/mp4">
+                                            </video>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- modal videos ending .........................   -->
+                            <div style="visibility: hidden;">
+                                <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj
+                                </h1>
+                                <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj
+                                </h1>
+                            </div>  <div style="visibility: hidden;">
+                                <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj
+                                </h1>
+                                <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj
+                                </h1>
+                            </div>  <div style="visibility: hidden;">
+                                <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj
+                                </h1>
+                                <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj
+                                </h1>
+                            </div>  <div style="visibility: hidden;">
+                                <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj
+                                </h1>
+                                <h1>dfjasldkfjaslkdfjsadlkfjsdalkfjsdalkfjsdkfjdsalkfjsdalkfjsdklfjsdlkfjsdklfjsdkfj
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ......................................contact  tab..................................................      -->
+
+                <div class="tab-pane" id="contacttab">
+                    
+                    <div class="homeanimediv">
+                        <h1 class="homeanimation">CONTACT US</h1>
+
+
+                    </div>
+                    <br>
+                    <!-- ..........................contact form is starting form here...................  -->
+                    <form action="javascript:sendmail()"  autocomplete="off" method="POST" id="contactformcustom">
+                        <div class="formdiv" id="formnamediv">
+                            <input type="text" id="inputname" autocomplete="off" name="Name" placeholder="Enter Your Full Name">
+                            
+                        </div>
+                        <div   class="errordivs" id="nameerror"></div>
+                        <div class="formdiv" id="formemaildiv">
+                            <input type="email" id="inputemail" name="Email" placeholder="Enter Your Email address ">
+                           
+                        </div>
+                        <div  class="errordivs" id="emialerror"></div>
+                        <div class="formdiv" id="textareadiv">
+                            <textarea name="Message" id="textarea" placeholder="Type Your Message" cols="30"
+                                rows="4"></textarea>
+                             
+                        </div>
+                        <div  class="errordivs" id="textareaerror"></div>
+                        <div class="formdiv" id="submittedbutton">
+                            <button  id="submittedbtn">Submit</button>
+                        
+                        </div>
+
+                    </form>
+                    <!-- ..........................contact form is ending form here...................  -->
+
+                </div>
+
+            </div>
+            <!--tab content -->
+        </div>
+        <!--contianer-->
+    </div>
+    <!--main container-->
+
+
+    <!-- ...................................................................................................................... -->
+    <!-- javascript start -->
+
+
+    <!-- link / -->
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <!-- jquery start  -->
+    <script>
+
+$(document).ready(function() {
+    // This will fire when document is ready:
+    $(window).resize(function() {
+        // This will fire each time the window is resized:
+        if($(window).width() > 770) {
+            // if larger or equal
+            
+            $("#bar").click(function () {
+
+$(".aa").toggle();
+
+$("#intro").toggle();
+$("#sociallinks").toggle();
+$("#name").toggle();
+
+$("#mainimg").toggle();
+
+var x = document.getElementById("name");
+
+if (x.style.display == 'none') {
+
+
+  
+    $("#navbarsidebar").css({
+        "text-align": "right"
+    });
+    $("#maincontent").css({
+        "width": "95vw",
+        "left": "5vw"
+    });
+
+    
+}
+else {
+
+
+
+    $("#navbarsidebar").css({
+        "text-align": "center"
+    });
+    $("#maincontent").css({
+        "width": "77vw",
+        "left": "23vw"
+    });
+  
+}
+
+});  
+        } 
+       
+    }).resize(); // This will simulate a resize to trigger the initial run.
+});
+
+
+
+        $(document).ready(function () {
+
+          
+          
+            // this script stop the video when modal will close or hidden ..... 
+
+            $('.modal').on('hide.bs.modal', function () {
+                var memory = $(this).html();
+                $(this).html(memory);
+            });
+            
+           
+          
+         
+                
+                
+            document.getElementById("contactformcustom").onsubmit=function(){
+                setTimeout(() => {
+                    $('#inputname').val("");
+             $('#inputemail').val("");
+            $('#textarea').val("");
+                }, 8000);
+                
+            }
+
+          
+            // ......................................................................... 
+
+
+
+
+
+
+
+
+          
+        });
+        // .................................................................
+        // ....................................javascript for contact form.............................
+        function sendmail() {
+
+            var name = $('#inputname').val();
+            var email = $('#inputemail').val();
+            var message = $('#textarea').val();
+            
+
+            // var body = $('#body').val();
+
+            var Body = 'Name: ' + name + '<br>Email: '+ email + '<br>Message: ' + message;
+            //console.log(name, phone, email, message);
+
+            Email.send({
+                Host : "smtp.gmail.com",
+                
+    Username : "mohammadawais4667@gmail.com",
+    Password : "bezlhyesejlxbpci",
+    To : "mohammadawais4666@gmail.com",
+    From : email,
+    Subject : "Message From" + name,
+    Body : Body
+            }).then(
+                message => {
+                    //console.log (message);
+                    if (message == 'OK') {
+                        alert('Your mail has been send. Thank you for connecting.');
+                    }
+                    else {
+                        console.error(message);
+                        alert('There is error at sending message. ')
+
+                    }
+
+                }
+            );
+
+
+
+        }
+// ....................................javascript for contact form.............................
+// ./.............................error validation................. ........................
+
+$("#submittedbtn").click(function () {
+        
+        var name = $("#inputname").val();
+        var textarea = $("#textarea").val();
+        var messagecheck = textarea.charAt(0);
+        var check  = name.charAt(0);
+       
+        if (name == "") {
+            $("#nameerror").html("Name filled can't be empty ! ");
+           
+            return false;
+        }
+         else if(check==" ")
+         {
+            $("#nameerror").html("Space before First Letter are not allowed ! ");
+           
+           return false;
+         }
+        else
+        {
+            $("#nameerror").html(" ");
+           
+           
+            
+        }
+        if(textarea == "")
+        {
+            $("#textareaerror").html("Empty Message error ! ");
+           
+           return false;
+        }
+        else if(messagecheck==" ")
+         {
+            $("#textareaerror").html("Space before First Letter are not allowed ! ");
+           
+           return false;
+         }
+        else
+        {
+            $("#textareaerror").html("");
+           
+        
+
+        }
+        
+    });
+// ./.............................error validation................. ........................
+
+    </script>
+    <!-- jquery start  -->
+
+
+
+
+    <!-- javascript end  -->
+</body>
+
+</html>

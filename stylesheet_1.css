@@ -1,0 +1,858 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    /* border: 1px solid red; */
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+}
+
+body{
+    
+    background: linear-gradient(rgb(2 2 2 / 46%), rgb(8 6 6 / 49%)),url("../IMGAES/NofaUj.jpg") no-repeat center;
+    background-position: center;
+    background-size: cover;
+     height: 100vh; 
+     
+}
+ /* nave bar logo css  */
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#logo a span{
+    color: rgb(50, 167, 235);
+}
+#logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 3vw;
+}
+#navcontainer{
+    display: flex;
+    background-color: #00000066;
+    position: fixed;
+    height: 9vh;
+    /* box-shadow: 1px 1px 8px white; */
+    
+
+}
+
+/* toggle side bar button  */
+#bar{
+   
+    color: white;
+    padding-right: 10px;
+    }
+#bar:hover{
+    color: rgb(18, 205, 252);
+    cursor: pointer;
+}
+
+
+
+
+
+#check{
+    display: none;
+}
+/* toggle side bar button  endinnnnnnnnnnnnnng */
+
+
+/* side bar  css / */
+#sidebarbox {
+    width: 23vw;
+    height: 100vh;
+    position: fixed;
+    top: 9vh;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0000005c;
+    /* box-shadow: -6px 0px 19px 0px white; */
+    text-align: center;
+    transition-property: left;
+    transition-duration: 2s;
+
+}
+#check:checked ~ #sidebarbox{
+    left: -18vw;
+    
+    
+}
+
+#images  {
+    height:100% ; 
+    width:44% ; 
+    border-radius: 77%;
+    box-shadow: 1px 1px 22px #00bbff6b;
+}
+#mainimg{
+    position: relative;
+    height: 22vh;
+    width: 17vw;
+    display: flex;
+    justify-content: center;
+}
+/* side bar item s  */
+.sidebaritiems
+{
+    padding: 2%;
+    border-bottom: 1px solid #ffffff42;
+    color: white;
+    width: 100%;
+
+}
+
+nav{
+    border-bottom: none   !important;
+}
+.pointme:hover {
+   
+    padding-left: 9px;
+    color: rgb(132, 210, 230);
+    background-color: rgba(0, 0, 0, 0.521);
+}
+
+.pointme a{
+    color: white;
+    text-decoration: none;
+  
+
+}
+.pointme a:hover{
+    color: rgb(140, 197, 250);
+
+}
+.fas{
+    color: white;
+}
+.fas:hover{
+color: rgb(140, 197, 250);
+
+}
+.links:hover{
+    color: rgb(140, 197, 250);
+    
+
+}
+.links{
+    padding-left: 18px;
+    cursor: pointer;
+
+}
+.sir:hover{
+    background-color: rgba(0, 0, 0, 0.521);
+}
+/* ...........................................................................................................................................com  */
+                   /* part 2  home page   */
+
+/* .................... button menu as a nav bar .....................  */
+.navbarbtn {
+    
+    font-size: 1.5rem;
+    background: #ffffff33 !important;
+    color: #ffffffb8;
+    
+}
+.btn-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#maincontent{
+    position: fixed;
+    width: 77vw;
+    top: 9vh;
+    left: 23vw;
+    height: 100vh;
+    padding-top: 1%;
+    
+
+    color: white;
+}
+
+
+
+
+
+::-webkit-scrollbar{
+    font-size: 2px;
+
+}
+::-webkit-scrollbar-track{
+    background:  transparent !important;
+}
+::-webkit-scrollbar-thumb{
+    background: rgba(243, 243, 243, 0.26);
+    border-radius: 10px;
+} 
+
+/* ........................hometab.................  */
+#hometab{
+   overflow: scroll;
+   height: 100vh !important;
+
+}
+.progresscustom{
+    background: rgba(255,255,255,0.1);
+  
+  border-radius: 100px;
+  
+  position: relative;
+  
+  display: flex;
+  width: 76%;
+}
+.innerprogress{
+    
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.493);
+    
+    
+}
+#htmlanimation{
+    animation: load 3s normal forwards;
+}
+@keyframes load {
+    0% { width: 0; }
+    100% { width: 60%; }
+  }
+#cssanimation{
+    animation: css 3s normal forwards;
+}
+@keyframes css {
+    0% { width: 0; }
+    100% { width: 72%; }
+  }
+#javascanimation{
+    animation: javasc 3s normal forwards;
+}
+@keyframes javasc {
+    0% { width: 0; }
+    100% { width: 55%; }
+  }
+#bootstrapanimation{
+    animation: bootstrap 3s normal forwards;
+}
+@keyframes bootstrap {
+    0% { width: 0; }
+    100% { width: 56%; }
+  }
+  #puganimation{
+    animation: pug 3s normal forwards;
+}
+@keyframes pug {
+    0% { width: 0; }
+    100% { width: 60%; }
+  }#nodeanimation{
+    animation: node 3s normal forwards;
+}
+@keyframes node {
+    0% { width: 0; }
+    100% { width: 40%; }
+  }#expressanimation{
+    animation: express 3s normal forwards;
+}
+@keyframes express {
+    0% { width: 0; }
+    100% { width: 30%; }
+  }
+  #jqueryanimation{
+    animation: jq 3s normal forwards;
+}
+@keyframes jq {
+    0% { width: 0; }
+    100% { width: 75%; }
+  }
+  #mongoanimation{
+    animation: mongo 3s normal forwards;
+}
+@keyframes mongo {
+    0% { width: 0; }
+    100% { width: 30%; }
+  }
+
+
+/* ..........................animation ....................  */
+.homeanimediv{
+    display: flex;
+}
+.homeanimation{
+    animation: welcome 2s normal forwards;
+    color: rgba(255, 255, 255, 0.959);
+    animation-delay: 1.3s;
+}
+
+@keyframes welcome {
+    0% { display: inline-block;}
+    10%{
+        transform: rotate(-14deg);
+        color: rgba(0, 127, 211, 0.24);
+        font-weight: bold;
+    }
+    30%{
+        color: rgb(255, 0, 0);
+        font-weight: bold;
+        text-shadow: 1px 1px 22px white;
+    }
+    50%{
+        color: rgba(253, 45, 173, 0.678);
+        font-weight: bold;
+    }
+    60%{
+        margin: 0px auto;
+    color: rgb(38, 26, 71);
+    font-weight: bold;
+    text-shadow: 1px 1px 22px white;
+    }
+80%{
+    transform: rotate(0deg);
+    color: rgba(10, 9, 9, 0.5);
+
+}
+    100% {  
+       
+        font-weight: bold;
+        text-shadow: 1px 1px 48px #c5ffed60;
+    margin: 0px auto; }
+  }
+  .homeanimation:hover{
+    color: rgba(3, 90, 161, 0.623);
+}
+
+/* ............media query................  */
+
+  /* ..........................750x1034 */
+
+/* .................................................... images gallery tab ............  */
+#imagestab{
+    overflow: scroll;
+    height: 100vh;
+}
+#videostab{
+    overflow: scroll;
+    height: 100vh;
+}
+#projecttab{
+    overflow: scroll;
+    height: 100vh;
+}
+#contacttab{
+    overflow: scroll;
+    height: 100vh;
+}
+
+
+
+.columndiv{
+    position: relative;
+ 
+    width: 229px !important;
+    margin: 21px;
+    
+    padding: 0PX;
+}
+.imagesgrid{
+    display: flex;
+    justify-content: center !important;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.colflex{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+
+}
+.imagestabimages{
+    position: relative;
+    height: 86%;
+    width: 100%;
+    margin-bottom: 2% !important;
+    
+    transition: 0.3s;
+}
+/* .colflex video{
+    position: relative;
+    height:70%;
+    width: 100%;
+    margin-bottom: 2% !important;
+    
+}
+.colflex video:focus{
+    outline: none;
+} */
+.colflex h5{
+    text-align: center;
+
+}
+.imagestabimages:hover{
+cursor: pointer;
+transform: scale(1.1);
+}
+.playbutton{
+    position: absolute;
+    height: 30%;
+    left: 50%;
+    width: 30%;
+    top: 46%;
+    margin-left: -15%;
+    margin-top: -15%;
+}
+.playbutton:hover{
+    transform: scale(1.1);
+  cursor: pointer;
+}
+ video:focus{
+    outline: none;
+}
+.modal-backdrop.show {
+    opacity: .5 !important;
+    z-index: -213 !important;
+}
+
+.modal-content{
+    border: none !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+
+}
+/* ............................. outside script ............ 
+ */
+
+.close {
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: white;
+}
+
+
+
+/* .....................................................contact form is staring  */
+#contactformcustom{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.formdiv{
+    
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    width: 58%;
+    position: relative;
+    margin-bottom: 3%;
+
+}
+.formdiv input ,.formdiv textarea,.formdiv button{
+    color: white;
+    background-color:  rgb(0 0 0 / 57%);
+    position: relative;
+    width: 100%;
+    padding: 1.5%;
+    height: 100%;
+    box-shadow: 1px 1px 98px #00fdee38;
+    outline: none;
+    font-size: 1.3vw;
+}
+.formdiv button{
+font-size: 1.5vw;
+width: 50%;
+margin: 0px auto;
+}
+#submittedbutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    margin: 1vh 0px;
+    
+}
+.formdiv input:hover ,.formdiv textarea:hover{
+    background-color:  rgba(79, 176, 255, 0.11);
+    box-shadow: 1px 1px 12px #14b3c1;
+}
+.formdiv button:hover{
+    background-color:  rgba(79, 176, 255, 0.11);
+    font-size: 1.7vw;
+    box-shadow: 1px 1px 12px #14b3c1;
+}
+input:focus {
+    background-color:  rgba(79, 176, 255, 0.11);
+  }
+textarea:focus {
+    background-color:  rgba(79, 176, 255, 0.11);
+  }
+.formdiv input {
+    height: 100%;
+}
+#textareadiv{
+    height: 21vh;
+    margin: 1vh 0px;
+}
+#formnamediv , #formemaildiv{
+    height: 7vh;
+    margin: 1vh 0px;
+}
+textarea { resize: none; }
+
+/* placeholder color  */
+::placeholder {
+    color: rgb(253, 253, 253);
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(253, 253, 253);
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: rgb(253, 253, 253);
+  }
+/* placeholder color  */
+/* errors  */
+.errordivs{
+    color: #ffffff;
+    margin: 3px 0px;
+    text-shadow: 1px 1px 1px #000000;
+    background: #f5deb352;
+    font-size: 3.4vh;
+
+}
+ /* errors  */
+@media only screen and (min-width: 576px)  and (max-width: 1000px)
+{
+
+    .modal-dialog {
+        max-width: 81vw !important;
+        margin: 1.75rem auto;
+    }
+}
+@media only screen and (min-width: 1000px)  and (max-width: 1400px)
+{
+
+    .modal-dialog {
+        max-width: 70vw !important;
+        margin: 1.75rem auto;
+    }
+}
+@media  only screen and (min-width: 1401px)  and (max-width: 1750px)
+{
+
+    .modal-dialog {
+        max-width: 90vw !important;
+        margin: 1.75rem auto;
+    }
+}
+@media only screen and (min-width: 1751px)  and (max-width: 2050px)
+{
+
+    .modal-dialog {
+        max-width: 80vw !important;
+        margin: 1.75rem auto;
+    }
+}
+@media only screen and (min-width: 2051px)  and (max-width: 40000px)
+{
+
+    .modal-dialog {
+        max-width: 70vw !important;
+        margin: 1.75rem auto;
+    }
+}
+/* media query for  main container ............................  */
+@media only screen and (min-width: 1200px)
+{
+
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 97vw !important;
+    }
+}
+/* responsive font sizes ..................................................  */
+@media  only screen and (min-width: 770px) and (max-width:1000px)
+{
+
+    .tab-content h3{
+        font-size: 4vw !important;
+    }
+    .tab-content h1{
+        font-size: 5vw !important;
+    }
+    .tab-content h5{
+        font-size: 3vw !important;
+    }
+    .tab-content p{
+        font-size: 2.3vw  !important;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width:100000px)
+{
+
+    .tab-content h3{
+        font-size: 3vw !important;
+    }
+    .tab-content h1{
+        font-size: 4vw !important;
+    }
+    .tab-content h5{
+        font-size: 2vw !important;
+    }
+    .tab-content p{
+        font-size: 1.3vw  !important;
+    }
+}
+/* ..........................mobile fontsize.......................... */
+@media only screen and (min-width: 0px) and (max-width:499px)
+{
+    .innerprogress {
+        height: 3vh !important;
+    }
+    #formnamediv, #formemaildiv {
+        height: 6vh;
+        
+    }
+
+    .formdiv input, .formdiv textarea, .formdiv button {
+       
+        font-size: 4vw !important;
+    }
+    .formdiv {
+      
+        width: 81% !important;
+       
+    }
+    #textareadiv {
+        height: 14vh;
+       
+    }
+    .errordivs{
+       
+        font-size: 2vh;
+    
+    }
+
+    .tab-content h3{
+        font-size: 7vw !important;
+    }
+    .tab-content h1{
+        font-size: 10vw !important;
+    }
+    .tab-content h5{
+        font-size: 5vw !important;
+    }
+    .tab-content p{
+        font-size: 5vw  !important;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width:769px)
+{
+    #formnamediv, #formemaildiv {
+        height: 6vh;
+        
+    }
+
+    .formdiv input, .formdiv textarea, .formdiv button {
+       
+        font-size: 3vw !important;
+    }
+    .formdiv {
+      
+        width: 81% !important;
+       
+    }
+    #textareadiv {
+        height: 20vh;
+       
+    }
+    .errordivs{
+       
+        font-size: 3.3vh;
+    
+    }
+    .tab-content h3{
+        font-size: 6vw !important;
+    }
+    .tab-content h1{
+        font-size: 8vw !important;
+    }
+    .tab-content h5{
+        font-size: 4vw !important;
+    }
+    .tab-content p{
+        font-size: 4vw  !important;
+    }
+}
+/* ..........................mobile fontsize..........................  */
+@media only screen and (min-width: 850px) and (max-width:1076px)
+{
+#mainimg{
+    height: 17%  !important;
+}
+
+}
+@media only screen and (min-width: 771px) and (max-width:900px)
+{
+    #bar {
+        color: white;
+        padding-right: 1vh !important;
+    }
+    #check:checked ~ #sidebarbox {
+        left: -17vw;
+    }
+}
+@media only screen and (min-width: 770px){
+
+    .container, .container-md, .container-sm {
+        max-width: 100% !important;
+    }
+
+   
+}
+@media only screen and (min-width: 771px) and (max-width: 849px)
+{
+
+  
+
+    #mainimg{
+        height: 13%  !important;
+    }
+}
+@media  only screen and (min-width: 1600px) and (max-width: 2100px)
+{
+
+    #mainimg{
+        height: 13%  !important;
+    }
+}
+
+
+.pointme a {
+  
+    font-size: 1.5vw !important;
+}
+.sidebaritiems h6,.sidebaritiems h5{
+    font-size: 1.3vw !important;
+}
+    .fas ,.links {
+   
+    color: white !important;
+    font-size: 4vh !important;
+    padding: 0.3vw !important;
+}
+
+
+    .innerprogress {
+       
+        height: 4vh;
+    }
+
+/* responsive font sizes ..................................................  */
+/* responsive sidebar starat from here  ..................................................  */
+@media only screen and (max-width: 770px)
+{
+
+    #sidebardiv{
+        position: fixed;
+        z-index: 12;
+        top: 3vh;
+        right: 1vw;
+    }
+    #mainimg {
+       display: none !important;
+    }
+    #name,#sociallinks,#intro{
+        display: none !important;
+    }
+    #logo a{
+        color: white;
+        text-decoration: none;
+        font-size: 4vh;
+    }
+    .pointme a {
+        font-size: 3.4vh !important;
+    }
+    #maincontent {
+        position: fixed;
+        width: 100vw;
+        margin: 0px;
+        top: 11vh;
+        left: 0vw;
+        height: 100vh;
+        padding-top: 1%;
+        color: white;
+    }
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        position: relative;
+        margin: 0px 0px !important;
+        max-width: 100%;
+    }
+    #navbarsidebar{
+position: relative;
+height: 100% !important;
+width: 100% !important;
+    }
+
+#sidebarbox {
+    width: 100vw;
+    height: 57vh;
+    position: fixed;
+    top: -58vh !important;
+    padding: 5px;
+    left: 0vw !important;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0000005c;
+    text-align: center;
+    transition-property: top;
+    transition-duration: 1s;
+    z-index: 123;
+}
+#check:checked ~ #sidebarbox{
+    top: 9vh !important;
+    
+    
+}
+
+
+}
+
+
+/* responsive sidebar starat from here  ..................................................  */
+input:-webkit-autofill,
+input:-webkit-autofill:hover
+
+{
+    transition: "color 9999s ease-out, background-color 9999s ease-out";
+    transition-delay: 9999s;
+}
+
+
+/* for ipad pro ..........................  */
+
+
+@media only screen and (min-width: 770px) and (max-width: 2100px)
+{
+
+    #mainimg{
+        height: 13%  !important;
+    }
+}
