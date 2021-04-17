@@ -768,9 +768,12 @@ textarea { resize: none; }
 
     #sidebardiv{
         position: fixed;
-        z-index: 12;
-        top: 3vh;
-        right: 1vw;
+    z-index: 12;
+    justify-content: center;
+    height: 9vh;
+    top: 1vh;
+    display: flex;
+    flex-direction: column-reverse;
     }
     #mainimg {
        display: none !important;
@@ -814,7 +817,7 @@ width: 100% !important;
     width: 100vw;
     height: 57vh;
     position: fixed;
-    top: -95vh !important;
+    top: -195vh !important;
     padding: 5px;
     left: 0vw !important;
     display: flex;
