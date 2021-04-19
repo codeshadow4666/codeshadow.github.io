@@ -872,3 +872,25 @@ input:-webkit-autofill:hover
         height: 13%  !important;
     }
 }
+@media only screen and (max-width: 1000px) and (max-height:750px)
+{
+
+#check:checked ~ #sidebarbox {
+    left: -17vw;
+}
+
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
