@@ -875,7 +875,7 @@ input:-webkit-autofill:hover
 @media only screen and (min-width: 1000px) and (min-height:750px)
 {
     #check:checked ~ #sidebarbox {
-        left: -17vw;
+        left: -17vw !important;
     }
    
 }
