@@ -542,6 +542,7 @@ textarea { resize: none; }
         max-width: 81vw !important;
         margin: 1.75rem auto;
     }
+  
 }
 @media only screen and (min-width: 1000px)  and (max-width: 1400px)
 {
@@ -553,14 +554,22 @@ textarea { resize: none; }
 }
 @media  only screen and (min-width: 1401px)  and (max-width: 1750px)
 {
-
+    .columndiv {
+        
+        width: 25vw !important;
+      margin: 0px 1vw;
+    }
     .modal-dialog {
         max-width: 90vw !important;
         margin: 1.75rem auto;
     }
 }
 @media only screen and (min-width: 1751px)  and (max-width: 2050px)
-{
+{ .columndiv {
+        
+    width: 25vw !important;
+  margin: 0px 1vw;
+}
 
     .modal-dialog {
         max-width: 80vw !important;
@@ -569,7 +578,11 @@ textarea { resize: none; }
 }
 @media only screen and (min-width: 2051px)  and (max-width: 40000px)
 {
-
+    .columndiv {
+        
+        width: 25vw !important;
+      margin: 0px 1vw;
+    }
     .modal-dialog {
         max-width: 70vw !important;
         margin: 1.75rem auto;
@@ -650,7 +663,7 @@ textarea { resize: none; }
         font-size: 7vw !important;
     }
     .tab-content h1{
-        font-size: 10vw !important;
+        font-size: 8.5vw !important;
     }
     .tab-content h5{
         font-size: 5vw !important;
