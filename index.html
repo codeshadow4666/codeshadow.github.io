@@ -617,12 +617,12 @@
                         </div>
                         <div   class="errordivs" id="nameerror"></div>
                         <div class="formdiv" id="formemaildiv">
-                            <input type="email" id="inputemail" name="Email" placeholder="Enter Your Email address ">
+                            <input type="email" id="inputemail" name="Email" autocomplete="off" placeholder="Enter Your Email address ">
                            
                         </div>
                         <div  class="errordivs" id="emialerror"></div>
                         <div class="formdiv" id="textareadiv">
-                            <textarea name="Message" id="textarea" placeholder="Type Your Message" cols="30"
+                            <textarea name="Message" id="textarea" autocomplete="off" placeholder="Type Your Message" cols="30"
                                 rows="4"></textarea>
                              
                         </div>
@@ -772,7 +772,7 @@ else {
     Username : "mohammadawais4667@gmail.com",
     Password : "bezlhyesejlxbpci",
     To : "mohammadawais4666@gmail.com",
-    From : name,
+    From : email,
     Subject : "Message From" + name,
     Body : Body
             }).then(
