@@ -24,13 +24,16 @@ background: linear-gradient(rgb(0 0 0 / 22%), rgb(0 0 0 / 13%)),url("./IMGAES/ci
     align-items: center;
     
 }
-#logo a span{
-    color: rgb(50, 167, 235);
-}
+
 #logo a{
     color: white;
     text-decoration: none;
     font-size: 3vw;
+        text-shadow: 0px 0px 9px #ffffff;
+}
+#logo a span{
+    color: rgb(50, 167, 235);
+        text-shadow: 0px 0px 19px #000fff;
 }
 #navcontainer{
     display: flex;
