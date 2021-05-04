@@ -92,8 +92,8 @@ background: linear-gradient(rgb(0 0 0 / 22%), rgb(0 0 0 / 13%)),url("./IMGAES/ci
 #images  {
     height:100% ; 
     width:44% ; 
-    border-radius: 77%;
-    box-shadow: 1px 1px 22px #00bbff6b;
+   
+    box-shadow: 1px 1px 7px #ffffff6b;
 }
 #mainimg{
     position: relative;
