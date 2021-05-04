@@ -95,6 +95,9 @@ background: linear-gradient(rgb(0 0 0 / 22%), rgb(0 0 0 / 13%)),url("./IMGAES/ci
    
     box-shadow: 1px 1px 7px #ffffff6b;
 }
+#images:hover{
+        transform: scale(1.009);
+}
 #mainimg{
     position: relative;
     height: 22vh;
