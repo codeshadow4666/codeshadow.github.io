@@ -190,14 +190,16 @@ color: rgb(140, 197, 250);
 
 
 ::-webkit-scrollbar{
-    font-size: 2px;
+    width:2px;
+  box-shadow:1px 1px 12px rgb(83, 83, 83);
 
 }
 ::-webkit-scrollbar-track{
     background:  transparent !important;
 }
 ::-webkit-scrollbar-thumb{
-    background: rgba(243, 243, 243, 0.26);
+    background: rgb(70, 69, 69);
+   
     border-radius: 10px;
 } 
 
