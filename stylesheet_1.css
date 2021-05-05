@@ -186,7 +186,17 @@ color: rgb(140, 197, 250);
 }
 
 
+@media only screen and (min-width: 0px)  and (max-width: 600px)
+{
 
+    
+::-webkit-scrollbar{
+   width:0px !important;
+
+
+}
+  
+}
 
 
 ::-webkit-scrollbar{
