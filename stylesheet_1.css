@@ -201,7 +201,7 @@ color: rgb(140, 197, 250);
 
 ::-webkit-scrollbar{
     width:2px;
-  box-shadow:1px 1px 12px rgb(83, 83, 83);
+  box-shadow:1px 1px 12px rgba(83, 83, 83, 0.233);
 
 }
 ::-webkit-scrollbar-track{
@@ -215,7 +215,8 @@ color: rgb(140, 197, 250);
 
 /* ........................hometab.................  */
 #hometab{
-   overflow: scroll;
+   overflow-y: scroll;
+   overflow-x: hidden;
    height: 100vh !important;
 
 }
@@ -353,19 +354,23 @@ color: rgb(140, 197, 250);
 
 /* .................................................... images gallery tab ............  */
 #imagestab{
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     height: 100vh;
 }
 #videostab{
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     height: 100vh;
 }
 #projecttab{
-    overflow: scroll;
+    overflow-y: scroll;
+   overflow-x: hidden;
     height: 100vh;
 }
 #contacttab{
-    overflow: scroll;
+    overflow-y: scroll;
+   overflow-x: hidden;
     height: 100vh;
 }
 
