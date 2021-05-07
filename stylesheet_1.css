@@ -264,7 +264,7 @@ color: rgb(140, 197, 250);
 }
 @keyframes bootstrap {
     0% { width: 0; }
-    100% { width: 56%; }
+    100% { width: 80%; }
   }
   #puganimation{
     animation: pug 3s normal forwards;
