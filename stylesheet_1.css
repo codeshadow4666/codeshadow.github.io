@@ -7,15 +7,27 @@
     /* border: 1px solid red; */
     text-decoration: none;
     font-family: 'Dancing Script', cursive;
+  
+}
+
+#projectlist li{
+    list-style: circle;
+    list-style-position: inside;
 }
 
 body{
     
-background: linear-gradient(rgb(0 0 0 / 22%), rgb(0 0 0 / 13%)),url("./IMGAES/citylandscape.jpg") no-repeat center;
+background: linear-gradient(rgb(0 0 0 / 57%), rgb(0 0 0 / 56%)),url("./IMGAES/citylandscape.jpg") no-repeat center;
     background-position: center;
     background-size: cover;
      height: 100vh; 
      
+}
+.tab-content p{
+    font-family: 'Kalam', cursive;
+    margin: 0 3%;
+    text-shadow: 1px 1px 13px #b4e6ff !important;
+    word-break: normal  !important;
 }
  /* nave bar logo css  */
 #logo{
@@ -345,7 +357,7 @@ color: rgb(140, 197, 250);
     margin: 0px auto; }
   }
   .homeanimation:hover{
-    color: rgba(3, 90, 161, 0.623);
+    text-shadow: 1px 2px 12px #00d6e4 !important;
 }
 
 /* ............media query................  */
@@ -384,6 +396,10 @@ color: rgb(140, 197, 250);
     
     padding: 0PX;
 }
+.columndiv h5{
+    text-align: center;
+    margin: 5px 0px;
+}
 .imagesgrid{
     display: flex;
     justify-content: center !important;
@@ -395,7 +411,7 @@ color: rgb(140, 197, 250);
     display: flex;
     flex-direction: column;
     position: relative;
-    height: 100%;
+    height: 77%;
     justify-content: center;
     width: 100%;
 
@@ -431,14 +447,10 @@ transform: scale(1.1);
     height: 30%;
     left: 50%;
     width: 30%;
-    top: 46%;
-    margin-left: -15%;
-    margin-top: -15%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
-.playbutton:hover{
-    transform: scale(1.1);
-  cursor: pointer;
-}
+
  video:focus{
     outline: none;
 }
@@ -649,7 +661,7 @@ textarea { resize: none; }
         font-size: 2vw !important;
     }
     .tab-content p{
-        font-size: 1.3vw  !important;
+        font-size: 1.9vw  !important;
     }
 }
 /* ..........................mobile fontsize.......................... */
@@ -692,7 +704,7 @@ textarea { resize: none; }
         font-size: 5vw !important;
     }
     .tab-content p{
-        font-size: 5vw  !important;
+        font-size: 6vw  !important;
     }
 }
 @media only screen and (min-width: 500px) and (max-width:769px)
