@@ -90,9 +90,9 @@ background: linear-gradient(rgb(0 0 0 / 22%), rgb(0 0 0 / 13%)),url("./IMGAES/ci
 }
 
 #images  {
-    height:100% ; 
-    width:44% ; 
-   
+    border-radius: 100%;
+    height: 14vh;
+    width: 6vw;
     box-shadow: 1px 1px 7px #ffffff6b;
 }
 #images:hover{
@@ -100,7 +100,7 @@ background: linear-gradient(rgb(0 0 0 / 22%), rgb(0 0 0 / 13%)),url("./IMGAES/ci
 }
 #mainimg{
     position: relative;
-    height: 22vh;
+    margin-bottom: 15px;
     width: 17vw;
     display: flex;
     justify-content: center;
@@ -734,13 +734,13 @@ textarea { resize: none; }
     }
 }
 /* ..........................mobile fontsize..........................  */
-@media only screen and (min-width: 850px) and (max-width:1076px)
+/* @media only screen and (min-width: 850px) and (max-width:1076px)
 {
 #mainimg{
     height: 17%  !important;
-}
+} */
 
-}
+
 @media only screen and (min-width: 771px) and (max-width:900px)
 {
     #bar {
@@ -759,7 +759,7 @@ textarea { resize: none; }
 
    
 }
-@media only screen and (min-width: 771px) and (max-width: 849px)
+/* @media only screen and (min-width: 771px) and (max-width: 849px)
 {
 
   
@@ -767,14 +767,14 @@ textarea { resize: none; }
     #mainimg{
         height: 13%  !important;
     }
-}
-@media  only screen and (min-width: 1600px) and (max-width: 2100px)
+} */
+/* @media  only screen and (min-width: 1600px) and (max-width: 2100px)
 {
 
     #mainimg{
         height: 13%  !important;
     }
-}
+} */
 
 
 .pointme a {
@@ -888,13 +888,13 @@ input:-webkit-autofill:hover
 /* for ipad pro .......................... dfdsfdf */
 
 
-@media only screen and (min-width: 770px) and (max-width: 2100px)
+/* @media only screen and (min-width: 770px) and (max-width: 2100px)
 {
 
     #mainimg{
         height: 13%  !important;
     }
-}
+} */
 
 
     
