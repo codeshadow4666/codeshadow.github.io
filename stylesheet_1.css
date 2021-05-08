@@ -91,7 +91,7 @@ background: linear-gradient(rgb(0 0 0 / 22%), rgb(0 0 0 / 13%)),url("./IMGAES/ci
 
 #images  {
     border-radius: 100%;
-    height: 14vh;
+    
     width: 6vw;
     box-shadow: 1px 1px 7px #ffffff6b;
 }
