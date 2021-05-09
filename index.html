@@ -59,10 +59,195 @@
     <!-- css link  -->
     <link rel="stylesheet" href="./stylesheet_1.css">
     <!-- css link  end -->
+    <!-- preloader css -->
+    <style>
+
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        html {
+            font-size: 62.5%;
+        }
+
+        #preloaderouterdiv {
+
+            display: grid;
+            place-items: center;
+            width: 100%;
+            height: 100vh;
+            z-index: 121312345435345345;
+            background-color: black;
+            position: fixed;
+
+        }
+
+        .preinnerdiv {
+
+            display: grid;
+            place-items: center;
+            width: 15rem;
+            height: 15rem;
+
+
+        }
+
+        .prering {
+            width: 15rem;
+            height: 15rem;
+            position: absolute;
+            border-right: 2px solid rgb(41, 185, 190);
+            border-radius: 50%;
+            animation-name: preloader;
+            animation-delay: 1s;
+            animation-duration: 0.8s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+
+        #preloaderh1 {
+            color: white;
+            font-family: 'Satisfy', cursive;
+        }
+
+        @keyframes preloader {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        .h1span{
+            font-size: 40px;
+        }
+        #span1{
+          
+            animation-name: doting;
+            animation-delay: 1s;
+            animation-duration: 1s;
+           
+            animation-iteration-count: infinite;
+        }
+        @keyframes doting
+         {
+
+
+            0% {
+               display: none;
+
+              
+            }
+            70%{
+                display:none;
+                
+            }
+
+            100% {
+                color: black;
+                display: inline-block;
+            }
+
+
+        }
+        #span2{
+          
+            animation-name: doting;
+            animation-delay: 1s;
+            animation-duration: 1s;
+           animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+        }
+        @keyframes doting
+         {
+
+
+            0% {
+               display: none;
+
+              
+            }
+            70%{
+                display:none;
+                
+            }
+
+            100% {
+                color: black;
+                display: inline-block;
+            }
+
+
+        }
+        #span3{
+          
+            animation-name: doting;
+            animation-delay: 1s;
+            animation-duration: 1s;
+           animation-timing-function: ease-in;
+            animation-iteration-count: infinite;
+        }
+        @keyframes doting
+         {
+
+
+            0% {
+               display: none;
+
+              
+            }
+            70%{
+                display:none;
+                
+            }
+
+            100% {
+                color: black;
+                display: inline-block;
+            }
+
+
+        }
+    </style>
+    <!-- preloader css -->
+
+
+
+
+
 </head>
 
-<body>
+<body onload="preloading()">
 
+    <!-- .....................prelodaer ending......................  -->
+    <div id="preloaderouterdiv">
+        <div class="preinnerdiv">
+            <div class="prering">
+
+            </div>
+            <h1 id="preloaderh1">
+                Loading <span class="h1span" id="span1">.</span><span class="h1span" id="span2">.</span><span
+                    class="h1span" id="span3">.</span>
+            </h1>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- .....................prelodaer ending......................  -->
     <input type="checkbox" id="check">
 
 
@@ -777,6 +962,15 @@
     </script>
     <!-- jquery start  -->
     <script>
+
+var preloader = document.getElementById("preloaderouterdiv");
+
+function preloading(){
+    preloader.style.display = "none";
+}
+
+
+
 
         $(document).ready(function () {
             // This will fire when document is ready:
