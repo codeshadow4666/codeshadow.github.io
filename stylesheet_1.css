@@ -674,6 +674,9 @@ textarea { resize: none; }
         height: 6vh;
         
     }
+    .text-capitalize{
+        font-size: 3vh !important;
+    }
 
     .formdiv input, .formdiv textarea, .formdiv button {
        
@@ -713,7 +716,9 @@ textarea { resize: none; }
         height: 6vh;
         
     }
-
+    .text-capitalize{
+        font-size: 4vh !important;
+    }
     .formdiv input, .formdiv textarea, .formdiv button {
        
         font-size: 3vw !important;
