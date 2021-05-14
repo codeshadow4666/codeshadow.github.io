@@ -359,7 +359,7 @@
                 <br>
                 <div class="tab-pane collapse active" id="hometab">
                     <div class="homeanimediv">
-                        <h1 class="homeanimation">Welcome</h1>
+                        <h1 class="homeanimation">Welcome Here</h1>
 
                     </div>
                     <br><br>
@@ -965,6 +965,9 @@
     <!-- jquery start  -->
     <script>
 
+window.onresize = function(){ location.reload(); }
+
+
 var preloader = document.getElementById("preloaderouterdiv");
 
 function preloading(){
@@ -976,11 +979,7 @@ function preloading(){
 
         $(document).ready(function () {
             // This will fire when document is ready:
-            //     $(window).resize(function() {
-            //         // This will fire each time the window is resized:
-
-
-            //     }).resize(); // This will simulate a resize to trigger the initial run.
+              
             if ($(window).width() > 770) {
                 // if larger or equal
 
