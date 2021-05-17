@@ -80,6 +80,8 @@ background: linear-gradient(rgb(0 0 0 / 57%), rgb(0 0 0 / 56%)),url("./IMGAES/ci
 
 /* side bar  css / */
 #sidebarbox {
+
+
     width: 23vw;
     height: 100vh;
     position: fixed;
@@ -867,6 +869,9 @@ width: 100% !important;
     }
 
 #sidebarbox {
+    background: linear-gradient( 
+        45deg
+         , #3a2727, #00ccff26);
     width: 100vw;
     height: 57vh;
     position: fixed;
